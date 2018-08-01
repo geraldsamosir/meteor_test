@@ -17,5 +17,11 @@ untuk mendapatkan jwt silahkan login dulu dengan
 untuk dokumentasi terdapat di 
 <br/>
 http://localhost:3002/api-docs/#/
+
 <br/>
 untuk config terdapat di file .env
+
+<br/>
+token expired dalam 120 second 
+dapat di costum di .env
+apabila expired gunkan router token pada group router user dengan mengirimkan refresh token pada header yang akan mengembalikan refresh token dan token yang baru 
